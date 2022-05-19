@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://cwrc.ca/schemas/cwrc_tei_lite.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://cwrc.ca/templates/css/tei.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+
+	
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>Sample Document Title</title>
+			</titleStmt>
+			<publicationStmt>
+				<p/>
+			</publicationStmt>
+			<sourceDesc sameAs="http://www.cwrc.ca">
+				<p>Created from original research by members of CWRC/CSÉC unless otherwise noted.</p>
+			</sourceDesc>
+		</fileDesc>
+	<xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+
+<rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/"><![CDATA[
+{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#"
+	},
+	"@id": "https://raw.githubusercontent.com/gwangxh/encoding/master/Elizabeth Wagstaffe?place_annotation_20220519114220544",
+	"@type": "oa:Annotation",
+	"dcterms:created": "2022-05-19T10:42:20.544Z",
+	"dcterms:modified": "2022-05-19T10:42:20.544Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/gwangxh",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": null,
+		"foaf:nick": "gwangxh"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/gwangxh/encoding/master/Elizabeth Wagstaffe?place_annotation_20220519114220544#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/gwangxh/encoding/master/Elizabeth Wagstaffe",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://cwrc-writer.cwrc.ca",
+			"@type": "as:Application",
+			"rdfs:label": "CWRC Writer",
+			"schema:softwareVersion": "8.2.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/gwangxh/encoding/master/Elizabeth Wagstaffe?place_annotation_20220519114220544#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div/p/placeName[2]"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:RealPlace",
+		"@id": "http://viaf.org/viaf/152506174/",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://cwrc-writer.cwrc.ca",
+		"@type": "as:Application",
+		"rdfs:label": "CWRC Writer",
+		"schema:url": "https://cwrc-writer.cwrc.ca",
+		"schema:softwareVersion": "8.2.0"
+	},
+	"oa:hasCertainty": "cwrc:high"
+}
+]]></rdf:Description></rdf:RDF></xenoData></teiHeader>
+	<text>
+		<body>
+			<div type="letter">
+				<head>Elizabeth Wagstaffe letter</head>
+				<opener>
+					
+					
+					<salute>Good mr Wagstaffe</salute>
+				</opener><p>, I thanke you for your kindenes, in that you would this buessie tyme, afforde soe much leasure as to write soe many lienes unto mee, which if you coulde see with what ioy I doe reseaue them, and howe exceedinge wellcome they are unto mee, you would not thinke your labour ill bestowed in writinge; if <persName cert="high" type="real">gertrude</persName> haue perswaeded her frinds that my Mother did desire to have her (as you write) shee hath saied untruly unto them, for my Mother was soe unwillinge to haue had her, that shee woulde haue sent her backe againe by <persName cert="high" type="real">Ioebe Iobe</persName>, but that shee thought my Father in lawe sendinge adoe with her, woulde take it unkindely, and my Mother doeth yett seeme to keepe her, ra-ther because shee was thrust upone her, then for any desire that shee had to her. my Mother desireth to be very kindely commen-ded unto you, whome shee saieth she doeth now thinke very longe to see heare againe; shee giueth you many thankes for the paines which you tooke, to match the bayse for her, wherein you mighte haue doune her agreate kindenes, for it is for apettecote for her selfe, but shee saieth, shee confesseth it is to much trouble, to put you unto, this tearme tyme, therefore if it please you to lett <del>Jhon</del> <persName cert="high" type="real">John</persName> haue the sleeue, shee woulde haue him to match it, as neere as hee can; of the deepest coullear, and ingraine: I woulde I gaue the price of halfe the bayse, that I had <persName cert="high" type="real">Besses</persName> sleeve againe; for heare is opoynted agreate meetinge, att <persName cert="high" type="real">Margetts</persName> mariage (of folke from <placeName cert="high">Newbery</placeName>, and <placeName ref="http://viaf.org/viaf/152506174/" key="Thatcham (England)" cert="high">Thatcham</placeName>, and divers othere places) which is upone wensday nexte, when I thinke <persName cert="high" type="real">Besse</persName> must be faine to weare her gowne with one sleeve. I am glade to here of my nighburs good fortune, and aduancment: and if my bad nighbure one the one siede, would doe, as my good nigh-boure one the othere siede hath do[[X]]ne, leaue her howse unto sume lady, I should then liue in the midest amonge the ladys. There is one more of your aquaintance, which sure must needs be knighted, who is shewtter <add>allsoe</add> <note>There are several points where Elizabeth inserts a forgotten word or letter marked by a circumflex; these are transcribed in superscript as they appear in the original manuscript.</note>to one of your country wemen; it is saiede that shee hath longe exspeckted Lords at least, and now shee ^is fallen in loue with <persName cert="high" type="real">mr Hinshaw</persName>,<note>Benjamin Henshawe, ‘Captain of the City of London’, the brother of Sir John Backhouse’s wife Flora (and thus Sir John’s brother-in-law, as Elizabeth writes). He married Anne (maiden name unknown) and had a son, Thomas Henshawe, in 1618.</note> that keepeth shopp in chepsi^ede, my cossen <persName cert="high" type="real">John Backhowse</persName> <note>Sir John Backhouse (1584–1649), Royalist MP for Great Marlowe from 1625–29.</note>his brother in law, who they saie came into Warwicksheere, [–whith] with his corrotch and fower faire horsses, and it is sertainly thought that hee shall mary <rs cert="high" type="http://sparql.cwrc.ca/ontology/cwrc#NaturalPerson">Sir Williame Summerfeelds daughter</rs>. I pray you remember my humble duty unto my Father, and lett mee be in the kindest manner you can, commended unto all my brothers and sisters<note>Here she ran out of space on the page and continued along the left hand margin.</note> And soe with my best loue unto your selfe, whose presence I hartely longe to inioy, in the meane tyme and euer committinge you to the most merciefull protecktione of the allmighty, I rest, Your truely loueinge and obedient wife <persName cert="high" type="real">Elizabeth Wagstaffe</persName>.</p>
+				
+				
+				<closer>
+					
+					<signed>
+						<persName sameAs="http://www.freebase.com/view/en/bertrand_russell">
+							B
+						</persName>
+					</signed><dateline>Chamberhowse this xith of Nouember 1616</dateline><salute/>
+				</closer>
+			</div>
+		</body>
+	</text>
+</TEI>
